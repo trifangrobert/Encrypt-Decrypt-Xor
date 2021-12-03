@@ -9,8 +9,8 @@ $ python hack-with-input.py output input.txt
 $ python hack-with-input.py output
 
 ### Echipa: 'Robert si Tudor' vs Echipa: 'Optimistii'
-$ Optimistii's secret key: CredCaPicAnul1
+Optimistii's secret key: CredCaPicAnul1
 
 ### How does hack-without-input work?
-$ First of all, I compute the key length using greatest common divisor. Based on the fact that the input is quite large, this technique will always work.
-$ Then I try some possible characters and check if they are valid. Again, based on the fact that the input is large, we won't have any problems. 
+- First of all, I compute the key length using greatest common divisor. Based on the fact that the input is quite large, this technique will always work.
+- Then I try some possible characters and check if they are valid. Again, based on the fact that the input is large, we won't have any problems. 
