@@ -1,12 +1,20 @@
 # Encrypt-Decrypt-Xor
 ### How to use encrypt.py
+```
 $ python encrypt.py key input.txt output
+```
 ### How to use decrypt.py
+```
 $ python decrypt.py key output input_recuperat.txt
+```
 ### How to use hack-with-input.py
+```
 $ python hack-with-input.py output input.txt
+```
 ### How to use hack-without-input.py
+```
 $ python hack-with-input.py output
+```
 
 ### Team: *Robert si Tudor* vs Team: *Optimistii*
 Opponent: [tezkerek/asc-pyxorenc](https://github.com/tezkerek/asc-pyxorenc)
