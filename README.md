@@ -25,7 +25,7 @@ Optimistii's secret key: `CredCaPicAnul1`
 
 - Then, I store `len_key` blocks and every block contains characters positioned at `start + n * len_key`, where `0 <= start < len_key` and n is natural number.
 
-- Then I try some possible characters (stored in `allowed_characters`) for the key, xor them with every character in the current block and check if it is a valid character.
+- Then, I try some possible characters (stored in `allowed_characters`) for the key, xor them with every character in the current block and check if it is a valid character.
 
 - Thanks to the large input, we did not need to use other restrictions like:
     - check if the words are valid in romanian language
